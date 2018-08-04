@@ -1,0 +1,196 @@
+<html>
+
+
+<script>
+function tableFilter() {
+
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+  
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+	  	
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}       
+		}
+	}
+</script>
+
+<body>
+
+<table id="myTable">
+						<tr class="header">
+							
+					<input type="text" id="myInput" onKeyUp="tableFilter()" placeholder="Search for content.." title="Type in a name">
+		
+						
+						<br><br>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa1">
+												Abusing Drugs
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa1" class="panel-collapse collapse">
+										<div class="panel-body">
+
+											<h4>What are the consequences of abusing drugs?											</h4>
+										  <p>Each drug has its own potential risks, and the risks  can be potentiated by impurities or adulterants, and the unique reaction of  each individual user. Drugs offered in the illicit market are not always what  they are claimed to be. The buyer can rarely be sure of the content or the  strength of the substance. If illicitly manufactured, the substances are likely  to contain impurities or adulterants. It is also noteworthy that taking drugs  with alcohol is even more dangerous and can be fatal.</p>
+											<h4>What will happen if taking more than one kind of drug at a time?</h4>
+                                          <p>Taking more than one drug all at a time is extremely  dangerous because even small doses of each may prove fatal. Complex  interactions can occur among various types of drugs and increase the risk of a  harmful or fatal outcome.</p>
+                                          <h4>&nbsp;</h4>
+
+									  </div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa2">
+												Psychotropic substances
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa2" class="panel-collapse collapse">
+										<div class="panel-body">										
+											<h4>
+										  Is it true that it is less harmful to abuse psychotropic substances?</h4>
+											<p>
+												Absolutely NOT! Frequent use of psychotropic substances in high doses and for a long time is likely to distort an individual's perception of and response to environment. Even in moderate doses, most psychotropic substances impair motor control, reaction time, and the ability to maintain attention. Drug users are likely to be a hazard to themselves and to others when operating machinery or a motor vehicle, or crossing roads, etc.</p>
+											<h4>Can drug abuse make you happy?</h4>
+											<p>No! Many drugs amplify mood, so if someone is angry,  anxious, or depressed, drugs could make that person feel even worse. Even drugs  that are thought to have a calming effect (like alcohol and tranquillizers) can  release aggressive impulses. They can also weaken one's social and personal  inhibitions, causing one to act in a manner he will later regret. Violence  causing serious injuries or deaths to the abusers or others, sexual offences  and date rape are often involved with the taking of drugs.</p>
+											<p>&nbsp;</p>
+											<p>&nbsp;</p>
+			
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa3">
+									Are drugs addictive?
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa3" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+		
+												<h4>
+													Are drugs addictive??</h4>
+										  <p>
+											
+Yes! Drugs not only alter behaviour, but also create physical and psychological dependence to varying degrees. Physical dependence causes withdrawal symptoms when the drug is discontinued. Psychological dependence causes a craving for the drug to ease the abuser's mind. Tolerance to drugs frequently develops so that higher doses are required to satisfy the craving or suppress the withdrawal symptoms. As a user becomes drug-dependent, he needs a constant supply of cash, and may resort to serious crimes to support his habit. Some may eventually die of overdose.
+</p>
+												<p>
+													However, banks are permitted to collect HKID Card copies of their customers as due diligence measures before carrying out a transaction involving an amount equal to or above HK$120,000, and if that is a wire transfer, an amount equal to or above HK$8,000 so as to comply with the relevant requirement in the Anti-Money Laundering and Counter-Terrorist Financing (Financial Institutions) Ordinance.</p>
+												<p>&nbsp;</p>
+												<p>&nbsp;</p>
+
+	
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">&nbsp;</h3>
+									</div>
+									<div id="qa4" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+											<h4>&nbsp;</h4>
+
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">&nbsp;</h3>
+									</div>
+									<div id="qa5" class="panel-collapse collapse">
+									  <div class="panel-body">
+										</div>
+								  </div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">&nbsp;</h3>
+									</div>
+									<div id="qa6" class="panel-collapse collapse">
+										<div class="panel-body">
+
+											<h4>&nbsp;</h4>
+
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">&nbsp;</h3>
+									</div>
+									<div id="qa7" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+											<h4>&nbsp;</h4>
+
+											
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+					</table>
+					
+					
+</body>
+
+</html>
